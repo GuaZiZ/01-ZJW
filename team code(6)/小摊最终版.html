@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智枢城</title>
+    <link rel="stylesheet" href="stylef.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navlist">
+            <div class="navp">
+                <img src="导航.png" alt="">
+            </div>
+            <a href="非机动车.html" class="nav"></a>
+            <a href="小摊.html" class="nav"></a>
+            <a href="落地垃圾.html" class="nav"></a>
+            <a href="道路积水.html" class="nav"></a>
+            <a href="路面坑洼.html" class="nav"></a>
+            <a href="机动车.html" class="nav"></a>
+            <a href="人头检测.html" class="nav"></a>
+        </div>
+        <div class="header">
+            <div class="bac1"></div>
+            <div class="ty">智枢城：智慧城市治理——小摊</div>
+        </div>
+        <div class="content">
+            <div class="ti">
+                <!-- <div class="tip">
+                    <img src="文框.png" alt="">
+                </div> -->
+                <div class="tik">
+                    <p style="margin-left: 20px;margin-top: 10px;">摄像头1</p>
+                </div>
+            </div>
+            <div class="ti">
+                <div class="tik">
+                    <p style="margin-left: 20px;margin-top: 10px;">摄像头2</p>
+                </div>
+                <!-- <p style="margin-left: 20px;margin-top: 10px;">摄像头2</p> -->
+                <!-- <p>摄像头2</p> -->
+            </div>
+            <div class="spli">
+                <img src="{{ url_for('video_feed') }}" width="100%">
+            </div>
+            <div class="spli">
+                <img src="{{ url_for('video_feed') }}" width="100%">
+            </div>
+            <div class="ti">
+                <div class="tik">
+                    <p style="margin-left: 20px;margin-top: 10px;">摄像头3</p>
+                </div>
+                <!-- <p style="margin-left: 20px;margin-top: 10px;">摄像头3</p> -->
+                <!-- <p>摄像头3</p> -->
+            </div>
+            <div class="ti">
+                <div class="tik">
+                    <p style="margin-left: 20px;margin-top: 10px;">摄像头4</p>
+                </div>
+                <!-- <p style="margin-left: 20px;margin-top: 10px;">摄像头4</p> -->
+                <!-- <p>摄像头4</p> -->
+            </div>
+            <div class="spli">
+                <img src="{{ url_for('video_feed') }}" width="100%">
+            </div>
+            <div class="spli">
+                <img src="{{ url_for('video_feed') }}" width="100%">
+            </div>
+        </div>
+        <div class="bac" style="background-image: url(bac.png);">
+            <img src="bac.png" alt="" >
+        </div>
+        <div class="datas">
+            <div class="t1">统计结果：</div>
+            <div class="t2">摄像头1：</div>
+            <div class="jso" id="json_data">
+                {{data}}
+            </div>
+            <div class="t2">摄像头2：</div>
+            <div class="jso" id="json_data">
+                {{data}}
+            </div>
+            <div class="t2">摄像头3：</div>
+            <div class="jso" id="json_data">
+                {{data}}
+            </div>
+            <div class="t2">摄像头4：</div>
+            <div class="jso" id="json_data">
+                {{data}}
+            </div>
+        </div>
+        <!-- <div class="datas"></div> -->
+    </div>
+    <!-- <div class="content"></div> -->
+    <script src="script2.js"></script>
+</body>
+</html>
