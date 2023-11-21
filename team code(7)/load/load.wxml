@@ -1,0 +1,9 @@
+<!--pages/load/load.wxml-->
+<view class="img">
+  <image src="1.png" mode="widthFix" class="img1"/>
+</view>
+<button class="buttons" style="font-size: 30rpx;border-radius: 30rpx;background-color: black;border-style: solid;border-color: white;color: white;border-width: 1px;" size="mini" bindtap="begin">修复</button>
+<text class="t4">加载中...</text>
+<view class="pro">
+  <progress percent="{{deflautWidth}}" color="#FFFFFF" activeColor="#475F8B"  bindtap="progress"/>
+</view>
