@@ -1,0 +1,7 @@
+<!--pages/main/main.wxml-->
+<view class="img">
+  <image src="1.png" mode="widthFix" class="img1"/>
+</view>
+
+<button type="primary" class="button1" bindtap="begin" style="width: 130px;height: 60px;" >
+</button>

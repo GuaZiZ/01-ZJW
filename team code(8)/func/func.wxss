@@ -1,0 +1,89 @@
+/* pages/func/func.wxss */
+.img1{
+  position: absolute;
+  width: 375px;
+}
+.swcontainer{
+  position: absolute;
+  width: 350px;
+  height: 231px;
+  /* background-color: red; */
+  left: 13px;
+  top: 13%;
+  /* opacity: 100%; */
+}
+.sw{
+  position: relative;
+  width: 340px;
+  height: 210px;
+  top: 5%;
+  /* left: 5%; */
+}
+.swimg{
+  position: absolute;
+  width: 340px;
+  height: 204px;
+  /* left: 5%; */
+  /* right: 6.5%; */
+  left: 3.2%;
+  top: 1%;
+}
+.swbac{
+  position: absolute;
+  width: 350px;
+  height: 231px;
+  left: 13px;
+  top: 13%;
+  background-color: white;
+  border-radius: 27px;
+  opacity: 44%;
+}
+.button1{
+  position: absolute;
+  bottom: 33.5%;
+  /* right: 3%; */
+  left: 4.15%;
+  opacity: 0%;
+}
+.button2{
+  position: absolute;
+  bottom: 33.5%;
+  /* right: 3%; */
+  left: 27%;
+  opacity: 0%;
+}
+.button3{
+  position: absolute;
+  bottom: 33.5%;
+  /* right: 3%; */
+  left: 49.85%;
+  opacity: 0%;
+}
+.button4{
+  position: absolute;
+  bottom: 33.5%;
+  /* right: 3%; */
+  left: 72.7%;
+  opacity: 0%;
+}
+.button5{
+  position: absolute;
+  bottom: 18%;
+  /* right: 3%; */
+  left: 4.15%;
+  opacity: 0%;
+}
+.button6{
+  position: absolute;
+  bottom: 18%;
+  /* right: 3%; */
+  left: 27%;
+  opacity: 0%;
+}
+.button7{
+  position: absolute;
+  bottom: 18%;
+  /* right: 3%; */
+  left: 49.85%;
+  opacity: 0%;
+}

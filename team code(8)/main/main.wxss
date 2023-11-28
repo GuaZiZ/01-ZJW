@@ -1,0 +1,11 @@
+/* pages/main/main.wxss */
+.img1{
+  position: absolute;
+  width: 375px;
+}
+.button1{
+  position: absolute;
+  bottom: 5.5%;
+  right: 3%;
+  opacity: 0%;
+}

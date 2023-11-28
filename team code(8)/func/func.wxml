@@ -1,0 +1,28 @@
+<!--pages/func/func.wxml-->
+<view class="img">
+  <image src="1.png" mode="widthFix" class="img1"/>
+</view>
+<view class="swbac"></view>
+<view class="swcontainer">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"	circular="{{circular}}" class="sw" indicator-color="#fffff0" indicator-active-color="black">
+    <block wx:for="{{banners}}" wx:key="*this">
+        <swiper-item>
+        <image src="{{item.src}}" mode="widthFix" class="swimg"></image></swiper-item>
+    </block>
+  </swiper>
+</view>
+
+<button type="primary" class="button1" bindtap="begin1" style="width: 85px;height: 103px;border-radius: 28px;" >
+</button>
+<button type="primary" class="button2" bindtap="begin2" style="width: 85px;height: 103px;border-radius: 28px;" >
+</button>
+<button type="primary" class="button3" bindtap="begin3" style="width: 85px;height: 103px;border-radius: 28px;" >
+</button>
+<button type="primary" class="button4" bindtap="begin4" style="width: 85px;height: 103px;border-radius: 28px;" >
+</button>
+<button type="primary" class="button5" bindtap="begin5" style="width: 85px;height: 103px;border-radius: 28px;" >
+</button>
+<button type="primary" class="button6" bindtap="begin6" style="width: 85px;height: 103px;border-radius: 28px;" >
+</button>
+<button type="primary" class="button7" bindtap="begin7" style="width: 85px;height: 103px;border-radius: 28px;" >
+</button>
