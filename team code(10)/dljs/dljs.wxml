@@ -1,0 +1,15 @@
+<!--pages/dljs/dljs.wxml-->
+<!-- <text>pages/dljs/dljs.wxml</text> -->
+<view class="img">
+  <image src="1.png" mode="widthFix" class="img1"/>
+</view>
+<button type="primary" class="button1" style="background-color: #03a68800;color: white;font-size: 70rpx;width: auto;border-radius: 67rpx;" bindtap="begin1" >
+<text class="t1">上传图片/视频</text>
+</button>
+
+<view class="pic" style="text-align: center;color: white;font-size: 100px;">
+<view style="margin-top: 75px;">+</view>
+</view>
+
+<button type="primary" class="button2" bindtap="begin2" style="width: 52px;height: 52px;" >
+</button>

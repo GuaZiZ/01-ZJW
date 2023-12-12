@@ -1,0 +1,12 @@
+<!--pages/lmkwr/lmkwr.wxml-->
+<!-- <text>pages/lmkwr/lmkwr.wxml</text> -->
+<view class="img">
+  <image src="1.png" mode="widthFix" class="img1"/>
+</view>
+
+<view class="pic" style="text-align: center;color: white;font-size: 100px;">
+<view style="margin-top: 75px;"></view>
+</view>
+
+<button type="primary" class="button2" bindtap="begin2" style="width: 52px;height: 52px;" >
+</button>
