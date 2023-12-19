@@ -1,0 +1,32 @@
+/* pages/ldljr/ldljr.wxss */
+.img1{
+  position: absolute;
+  width: 375px;
+}
+.button1{
+  position: absolute;
+  bottom: 20.5%;
+  left: 12.5%;
+  border-width: 4px;
+  border-style: solid;
+}
+.pic{
+  position: absolute;
+  /* background-color: white; */
+  width: 300px;
+  height: 300px;
+  border-color: white;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 67px;
+  top: 26.4%;
+  left: 9%;
+}
+.button2{
+  position: absolute;
+  /* bottom: 33.5%; */
+  /* right: 3%; */
+  top: 8%;
+  left: 8%;
+  opacity: 0%;
+}
